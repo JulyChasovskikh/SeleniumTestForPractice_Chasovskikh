@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MRt+CoGj+6fnj8MbwFG36mQ6GQ2ZTHAsMPK+aDE6ZfOB4wgMvpKLKGsfTO1oRcUpCsUIj7lFuAt2cmQvzL/znA==",
+  "dgSpecHash": "YtpN+f6lyJ5vyJD6jDnE2jCF2tencAPzBCyzCxPgi0GYBEdipEWLAHDBbb6QoKWQgjzhLOb9OUtQsyo8gk5b3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\j.chasovskikh\\RiderProjects\\SeleniumTestChasovskikh\\SeleniumTestChasovskikh\\SeleniumTestChasovskikh.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\j.chasovskikh\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\j.chasovskikh\\.nuget\\packages\\fluentassertions\\7.0.0-alpha.3\\fluentassertions.7.0.0-alpha.3.nupkg.sha512",
     "C:\\Users\\j.chasovskikh\\.nuget\\packages\\microsoft.codecoverage\\17.9.0\\microsoft.codecoverage.17.9.0.nupkg.sha512",
     "C:\\Users\\j.chasovskikh\\.nuget\\packages\\microsoft.net.test.sdk\\17.9.0\\microsoft.net.test.sdk.17.9.0.nupkg.sha512",
     "C:\\Users\\j.chasovskikh\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.9.0\\microsoft.testplatform.objectmodel.17.9.0.nupkg.sha512",
@@ -12,7 +14,10 @@
     "C:\\Users\\j.chasovskikh\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
     "C:\\Users\\j.chasovskikh\\.nuget\\packages\\selenium.webdriver\\4.19.0\\selenium.webdriver.4.19.0.nupkg.sha512",
     "C:\\Users\\j.chasovskikh\\.nuget\\packages\\selenium.webdriver.chromedriver\\123.0.6312.12200\\selenium.webdriver.chromedriver.123.0.6312.12200.nupkg.sha512",
-    "C:\\Users\\j.chasovskikh\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\j.chasovskikh\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.1\\seleniumextras.waithelpers.1.0.1.nupkg.sha512",
+    "C:\\Users\\j.chasovskikh\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\j.chasovskikh\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\j.chasovskikh\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }
