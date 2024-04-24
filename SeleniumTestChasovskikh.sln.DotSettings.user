@@ -1,5 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39507391_002D6409_002D4c0e_002D9c1f_002D1ce2c0736a30/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Authorization #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39507391_002D6409_002D4c0e_002D9c1f_002D1ce2c0736a30/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Authorization #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
@@ -16,12 +16,13 @@
     &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d320f035_002Da7f9_002D4d33_002Db10e_002D0e74aadeff07/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Logout" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d320f035_002Da7f9_002D4d33_002Db10e_002D0e74aadeff07/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Logout" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.Logout&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.Event&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.SearchPerson&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.CommunityTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.EventAddButton&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/SpawnedProcessesKnownList/=conhost_002Eexe/@EntryIndexedValue">KillOrphaned</s:String></wpf:ResourceDictionary>

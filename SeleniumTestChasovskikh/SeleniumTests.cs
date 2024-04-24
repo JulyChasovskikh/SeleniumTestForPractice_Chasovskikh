@@ -17,13 +17,14 @@ public class TestForPractice
        options.AddArguments("--no-sandbox","--start-maximized","--disable-extensions");
        //зайти в хром
        driver = new ChromeDriver(options);
-       // var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(2));
        
        Autorization();
+       
+       driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);//неявное ожидание
    }
 
    [Test]
-    public void Authorization()
+    public void Login()
     {
       
         // - проверяем что мы находимся на нужной странице
@@ -37,15 +38,13 @@ public class TestForPractice
     }
 
     [Test]
-    public void CommunityTest()
+    public void CommunityPage()
     {
     
         // клик на сообщества
         var community = driver.FindElement(By.CssSelector(("[data-tid='Community']")));
         community.Click();
-        
-        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);//неявное ожидание
-        
+        //подтверждаем, что мы на нужной странице
         var communityName = driver.FindElement((By.CssSelector(("[data-tid='Title']"))));
         Assert.That(driver.Url=="https://staff-testing.testkontur.ru/communities");
        
@@ -58,47 +57,43 @@ public class TestForPractice
         //клик на поле поиск сотрудника
         var search = driver.FindElement(By.CssSelector("[data-tid='SearchBar']"));
         search.Click();
-        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);//неявное ожидание
+        //Вводим тестовые данные
         var InputPerson = driver.FindElement(By.ClassName("react-ui-1oilwm3"));
         InputPerson.SendKeys("Часовских");
+        //Кликаем на появившийся профиль
         var Person = driver.FindElement(By.CssSelector("[data-tid='ComboBoxMenu__item']"));
         Person.Click();
-        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);//неявное ожидание
-        
-        //я же правильно понимаю что нужно еще добавить проверку что мы действительно в профиль перешли?
+        //чек ссылки на профиль
+        Assert.That(driver.Url=="https://staff-testing.testkontur.ru/profile/4f3f5dd7-04f1-4b2b-b5d6-a4f52cb002e6");
     }
 
     [Test]
     //тестируем кнопку "создать" в разделе "мероприятия"
-    public void Event()
+    public void EventAddButton()
     {
         //переходим на страницу "мероприятия"
         var events = driver.FindElement(By.CssSelector(("[data-tid='Events']")));
         events.Click();
-        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);//неявное ожидание
+        //жмем кнопку "создать"
         var addEvents = driver.FindElement(By.CssSelector("[data-tid='AddButton']"));
         addEvents.Click();
-        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);//неявное ожидание
+        //чекаем модальное окно
+        var newEvent = driver.FindElement(By.CssSelector("[data-tid='ModalPageBody']"));
         
-        //наверное с точки зрения полноты сценария лучше прям заполнить форму? Или можно сделать проверку что всплывашка "создать мероприятие" появилась и ок?
+        
     }
 
     [Test]
-    //logout
-
     public void Logout()
     
-    {
+    { 
+        //вызываем выпадашку у аккаунта
         var profileMenu = driver.FindElement(By.CssSelector("[data-tid='DropdownButton']"));
         profileMenu.Click();
-        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);//неявное ожидание
-        
+        //жмем "выйти"
         var buttonLogout = driver.FindElement(By.CssSelector("[data-tid='Logout']"));
         buttonLogout.Click();
-        //проверяем что мы находимся на нужной странице, вот тут случился затык, не очень понимаю за что можно зацепиться
-        //пыталась за ссылку, тест работает, но вылетает ассерт 
-        
-       
+
     }
 
 
