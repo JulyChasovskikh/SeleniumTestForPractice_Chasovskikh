@@ -69,7 +69,7 @@ public class TestForPractice
 
     [Test]
     //тестируем кнопку "создать" в разделе "мероприятия"
-    public void EventAddButton()
+    public void TestingMapInAddEvents()
     {
         //переходим на страницу "мероприятия"
         var events = driver.FindElement(By.CssSelector(("[data-tid='Events']")));
@@ -77,10 +77,11 @@ public class TestForPractice
         //жмем кнопку "создать"
         var addEvents = driver.FindElement(By.CssSelector("[data-tid='AddButton']"));
         addEvents.Click();
-        //чекаем модальное окно
-        var newEvent = driver.FindElement(By.CssSelector("[data-tid='ModalPageBody']"));
-        
-        
+        //чекаем виджет карты
+        var mapEvent = driver.FindElement(By.ClassName("map-wrapper"));
+        Assert.That(mapEvent.Displayed, message:"Виджет карты не работает");
+
+
     }
 
     [Test]
@@ -93,7 +94,8 @@ public class TestForPractice
         //жмем "выйти"
         var buttonLogout = driver.FindElement(By.CssSelector("[data-tid='Logout']"));
         buttonLogout.Click();
-
+        var LogoutHead = driver.FindElement(By.ClassName("login-page"));
+        Assert.That(LogoutHead.Displayed, message:"Кнопка выйти не работает");
     }
 
 

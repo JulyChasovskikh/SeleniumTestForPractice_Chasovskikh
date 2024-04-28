@@ -1,28 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39507391_002D6409_002D4c0e_002D9c1f_002D1ce2c0736a30/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Authorization #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3e5e7ef0_002Dacab_002D41de_002Db4e5_002D6fabb675a823/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5bac8b20_002Da857_002D4575_002Da034_002D125e86d6f057/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Authorization" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.Authorization&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.testName&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.CommunityTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7a2c88f2_002D891c_002D402b_002D912c_002D713e201aa6ea/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="testName" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d320f035_002Da7f9_002D4d33_002Db10e_002D0e74aadeff07/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Logout" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.Logout&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.Event&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.SearchPerson&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.CommunityTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3C997C97-7078-49EC-8957-A0F0580D30AE::net6.0::SeleniumTestChasovskikh.TestForPractice.EventAddButton&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
 	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/SpawnedProcessesKnownList/=conhost_002Eexe/@EntryIndexedValue">KillOrphaned</s:String></wpf:ResourceDictionary>
