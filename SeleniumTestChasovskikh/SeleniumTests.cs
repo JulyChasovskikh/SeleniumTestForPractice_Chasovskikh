@@ -68,7 +68,7 @@ public class TestForPractice
     }
 
     [Test]
-    //тестируем кнопку "создать" в разделе "мероприятия"
+   
     public void TestingMapInAddEvents()
     {
         //переходим на страницу "мероприятия"
